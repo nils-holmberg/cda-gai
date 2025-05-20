@@ -6,7 +6,7 @@
 
 # computational data analysis, algorithmic prompting
 
-- some bullet point
+- [coding for dummies](https://www.sam.lu.se/en/internal/research-and-education/research/skill-school-lund-social-science-methods-centre?q=research-and-education/autumn-methods-workshops)
 
 ---
 
