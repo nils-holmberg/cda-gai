@@ -7,6 +7,14 @@
 # computational data analysis, algorithmic prompting
 
 - [coding for dummies](https://www.sam.lu.se/en/internal/research-and-education/research/skill-school-lund-social-science-methods-centre?q=research-and-education/autumn-methods-workshops)
+- divide and conquer 
+- modularity, independence
+- start small, scale up
+- minimal viable product (mvp)
+- fail early 
+- reduce complexity, refactor
+- each function does one thing
+-  
 
 ---
 
