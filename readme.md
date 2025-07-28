@@ -29,17 +29,19 @@ In the remaining sessions, the course dives into AI-assisted data analysis using
 ## 2. implement control, data structures
 - list iteration = automation
 - for loops, if else basics
+- [prompt engineering](evince res/refs/2025-01-18-pdf-1-TechAI-Goolge-whitepaper_Prompt\ Engineering_v4-af36dcc7a49bb7269a58b1c9b89a8ae1.pdf)
 
 ## data analysis
 - generate synthetic datasets
 - analyze, chat with your data
+- descriptive and inferential analyses
 - modify matplotlib visualization gallery
 
 ## putting it all together
 - cca using language models, vision models
 - vibe coding, low-code programming
 - product requirements document (prd)
-- 
+- learn bayesian programming 
 
 ---
 
