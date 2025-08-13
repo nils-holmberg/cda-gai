@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5: End-to-End Capstone – apws</title>
+<title>apws-module-1-prd – apws</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -3838,7 +3838,7 @@ vertical-align: -.125em;
 </style>
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -3860,7 +3860,7 @@ vertical-align: -.125em;
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./modules.html" aria-current="page"> 
+    <a class="nav-link" href="./modules.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item">
@@ -3873,161 +3873,195 @@ vertical-align: -.125em;
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./apws-module-5.html">5: End-to-End Capstone</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./modules.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Modules</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./apws-module-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1: Python Colab Basics</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./apws-module-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2: Low-Code Data Handling</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./apws-module-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3: Automate Data Collection</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./apws-module-4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4: Data Viz Basics</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./apws-module-5.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">5: End-to-End Capstone</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#integrate-skills-into-a-small-end-to-end-project" id="toc-integrate-skills-into-a-small-end-to-end-project" class="nav-link active" data-scroll-target="#integrate-skills-into-a-small-end-to-end-project">Integrate skills into a small end-to-end project</a>
+  <li><a href="#product-requirements-document-prd" id="toc-product-requirements-document-prd" class="nav-link active" data-scroll-target="#product-requirements-document-prd">Product Requirements Document (PRD)</a>
   <ul class="collapse">
-  <li><a href="#simple-python-program" id="toc-simple-python-program" class="nav-link" data-scroll-target="#simple-python-program">Simple Python Program</a></li>
-  <li><a href="#social-science-application-idea" id="toc-social-science-application-idea" class="nav-link" data-scroll-target="#social-science-application-idea">Social Science Application Idea</a></li>
-  <li><a href="#chatting-with-your-data-showcase" id="toc-chatting-with-your-data-showcase" class="nav-link" data-scroll-target="#chatting-with-your-data-showcase">Chatting with Your Data (Showcase)</a></li>
+  <li><a href="#feature-simple-python-program-palindrome-check-day-1" id="toc-feature-simple-python-program-palindrome-check-day-1" class="nav-link" data-scroll-target="#feature-simple-python-program-palindrome-check-day-1">Feature: Simple Python Program — Palindrome Check (Day 1)</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">1) Summary</a></li>
+  <li><a href="#goals-non-goals" id="toc-goals-non-goals" class="nav-link" data-scroll-target="#goals-non-goals">2) Goals &amp; Non-Goals</a></li>
+  <li><a href="#user-stories" id="toc-user-stories" class="nav-link" data-scroll-target="#user-stories">3) User Stories</a></li>
+  <li><a href="#functional-requirements" id="toc-functional-requirements" class="nav-link" data-scroll-target="#functional-requirements">4) Functional Requirements</a></li>
+  <li><a href="#non-functional-requirements" id="toc-non-functional-requirements" class="nav-link" data-scroll-target="#non-functional-requirements">5) Non-Functional Requirements</a></li>
+  <li><a href="#definition-of-done-acceptance-criteria" id="toc-definition-of-done-acceptance-criteria" class="nav-link" data-scroll-target="#definition-of-done-acceptance-criteria">6) Definition of Done / Acceptance Criteria</a></li>
+  <li><a href="#acceptance-tests-minimum" id="toc-acceptance-tests-minimum" class="nav-link" data-scroll-target="#acceptance-tests-minimum">7) Acceptance Tests (Minimum)</a></li>
+  <li><a href="#teaching-script-suggested" id="toc-teaching-script-suggested" class="nav-link" data-scroll-target="#teaching-script-suggested">8) Teaching Script (Suggested)</a></li>
+  <li><a href="#example-implementation-reference" id="toc-example-implementation-reference" class="nav-link" data-scroll-target="#example-implementation-reference">9) Example Implementation (Reference)</a></li>
+  <li><a href="#risks-mitigations" id="toc-risks-mitigations" class="nav-link" data-scroll-target="#risks-mitigations">10) Risks &amp; Mitigations</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">11) Deliverables</a></li>
+  <li><a href="#success-metrics" id="toc-success-metrics" class="nav-link" data-scroll-target="#success-metrics">12) Success Metrics</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">5: End-to-End Capstone</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<ul>
-<li><a href="https://colab.research.google.com/github/nils-holmberg/cda-gai/blob/main/jnb/apws-module-5.ipynb" target="_blank"><img role="img" aria-label="Open In Colab" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTE3IiBoZWlnaHQ9IjIwIj48bGluZWFyR3JhZGllbnQgaWQ9ImIiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9ImEiPjxyZWN0IHdpZHRoPSIxMTciIGhlaWdodD0iMjAiIHJ4PSIzIiBmaWxsPSIjZmZmIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiM1NTUiIGQ9Ik0wIDBoMzB2MjBIMHoiLz48cGF0aCBmaWxsPSIjMDA3ZWM2IiBkPSJNMzAgMGg4N3YyMEgzMHoiLz48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNMCAwaDExN3YyMEgweiIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsVmVyZGFuYSxHZW5ldmEsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiPjxzdmcgeD0iNHB4IiB5PSIwcHgiIHdpZHRoPSIyMnB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9Ii0yIDAgMjggMjQiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO2JvcmRlci1yYWRpdXM6IDFweDsiPjxwYXRoIHN0eWxlPSJmaWxsOiNlODcxMGE7IiBkPSJNMS45NzcsMTYuNzdjLTIuNjY3LTIuMjc3LTIuNjA1LTcuMDc5LDAtOS4zNTdDMi45MTksOC4wNTcsMy41MjIsOS4wNzUsNC40OSw5LjY5MWMtMS4xNTIsMS42LTEuMTQ2LDMuMjAxLTAuMDA0LDQuODAzQzMuNTIyLDE1LjExMSwyLjkxOCwxNi4xMjYsMS45NzcsMTYuNzd6Ii8+PHBhdGggc3R5bGU9ImZpbGw6I2Y5YWIwMDsiIGQ9Ik0xMi4yNTcsMTcuMTE0Yy0xLjc2Ny0xLjYzMy0yLjQ4NS0zLjY1OC0yLjExOC02LjAyYzAuNDUxLTIuOTEsMi4xMzktNC44OTMsNC45NDYtNS42NzhjMi41NjUtMC43MTgsNC45NjQtMC4yMTcsNi44NzgsMS44MTljLTAuODg0LDAuNzQzLTEuNzA3LDEuNTQ3LTIuNDM0LDIuNDQ2QzE4LjQ4OCw4LjgyNywxNy4zMTksOC40MzUsMTYsOC44NTZjLTIuNDA0LDAuNzY3LTMuMDQ2LDMuMjQxLTEuNDk0LDUuNjQ0Yy0wLjI0MSwwLjI3NS0wLjQ5MywwLjU0MS0wLjcyMSwwLjgyNkMxMy4yOTUsMTUuOTM5LDEyLjUxMSwxNi4zLDEyLjI1NywxNy4xMTR6Ii8+PHBhdGggc3R5bGU9ImZpbGw6I2U4NzEwYTsiIGQ9Ik0xOS41MjksOS42ODJjMC43MjctMC44OTksMS41NS0xLjcwMywyLjQzNC0yLjQ0NmMyLjcwMywyLjc4MywyLjcwMSw3LjAzMS0wLjAwNSw5Ljc2NGMtMi42NDgsMi42NzQtNi45MzYsMi43MjUtOS43MDEsMC4xMTVjMC4yNTQtMC44MTQsMS4wMzgtMS4xNzUsMS41MjgtMS43ODhjMC4yMjgtMC4yODUsMC40OC0wLjU1MiwwLjcyMS0wLjgyNmMxLjA1MywwLjkxNiwyLjI1NCwxLjI2OCwzLjYsMC44M0MyMC41MDIsMTQuNTUxLDIxLjE1MSwxMS45MjcsMTkuNTI5LDkuNjgyeiIvPjxwYXRoIHN0eWxlPSJmaWxsOiNmOWFiMDA7IiBkPSJNNC40OSw5LjY5MUMzLjUyMiw5LjA3NSwyLjkxOSw4LjA1NywxLjk3Nyw3LjQxM2MyLjIwOS0yLjM5OCw1LjcyMS0yLjk0Miw4LjQ3Ni0xLjM1NWMwLjU1NSwwLjMyLDAuNzE5LDAuNjA2LDAuMjg1LDEuMTI4Yy0wLjE1NywwLjE4OC0wLjI1OCwwLjQyMi0wLjM5MSwwLjYzMWMtMC4yOTksMC40Ny0wLjUwOSwxLjA2Ny0wLjkyOSwxLjM3MUM4LjkzMyw5LjUzOSw4LjUyMyw4Ljg0Nyw4LjAyMSw4Ljc0NkM2LjY3Myw4LjQ3NSw1LjUwOSw4Ljc4Nyw0LjQ5LDkuNjkxeiIvPjxwYXRoIHN0eWxlPSJmaWxsOiNmOWFiMDA7IiBkPSJNMS45NzcsMTYuNzdjMC45NDEtMC42NDQsMS41NDUtMS42NTksMi41MDktMi4yNzdjMS4zNzMsMS4xNTIsMi44NSwxLjQzMyw0LjQ1LDAuNDk5YzAuMzMyLTAuMTk0LDAuNTAzLTAuMDg4LDAuNjczLDAuMTljMC4zODYsMC42MzUsMC43NTMsMS4yODUsMS4xODEsMS44OWMwLjM0LDAuNDgsMC4yMjIsMC43MTUtMC4yNTMsMS4wMDZDNy44NCwxOS43Myw0LjIwNSwxOS4xODgsMS45NzcsMTYuNzd6Ii8+PC9zdmc+PHRleHQgeD0iMjQ1IiB5PSIxNDAiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB0ZXh0TGVuZ3RoPSIzMCI+IDwvdGV4dD48dGV4dCB4PSI3MjUiIHk9IjE1MCIgZmlsbD0iIzAxMDEwMSIgZmlsbC1vcGFjaXR5PSIuMyIgdHJhbnNmb3JtPSJzY2FsZSguMSkiIHRleHRMZW5ndGg9Ijc3MCI+T3BlbiBpbiBDb2xhYjwvdGV4dD48dGV4dCB4PSI3MjUiIHk9IjE0MCIgdHJhbnNmb3JtPSJzY2FsZSguMSkiIHRleHRMZW5ndGg9Ijc3MCI+T3BlbiBpbiBDb2xhYjwvdGV4dD48L2c+IDwvc3ZnPgo=" class="img-fluid" style="width:30.0%" alt="Open In Colab"></a></li>
-</ul>
-<section id="integrate-skills-into-a-small-end-to-end-project" class="level1">
-<h1>Integrate skills into a small end-to-end project</h1>
-<div id="7aca7fdd" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Starter cell for Module 5</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># (Intentionally empty — use this for imports, setup, or scratch work.)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="simple-python-program" class="level3">
-<h3 class="anchored" data-anchor-id="simple-python-program">Simple Python Program</h3>
-<p><strong>Planned focus:</strong> Average &amp; median from a list</p>
-<ul>
-<li><strong>Key topics / activities:</strong> Lists, built-ins, simple stats</li>
-<li><strong>Example / mini-project:</strong> <code>mean/median</code> on example list + edge cases</li>
-</ul>
-<div id="665a4925" class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># </span><span class="al">TODO</span><span class="co">: Implement: Simple Python Program for Day 5</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Suggested starting hints from schedule:</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Title: Average &amp; median from a list</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Key topics / activities: Lists, built-ins, simple stats</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Example / Mini-project: `mean/median` on example list + edge cases</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Write your code here...</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="product-requirements-document-prd" class="level1">
+<h1>Product Requirements Document (PRD)</h1>
+<section id="feature-simple-python-program-palindrome-check-day-1" class="level2">
+<h2 class="anchored" data-anchor-id="feature-simple-python-program-palindrome-check-day-1">Feature: Simple Python Program — Palindrome Check (Day 1)</h2>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">1) Summary</h3>
+<p>Build a tiny, beginner-friendly Python function that tests whether a string is a palindrome. It will be used in a Day-1 workshop segment to teach <strong>variables, strings, conditionals, and printing</strong> in Google Colab (or any Python 3 environment).</p>
 </section>
-<section id="social-science-application-idea" class="level3">
-<h3 class="anchored" data-anchor-id="social-science-application-idea">Social Science Application Idea</h3>
-<p><strong>Planned focus:</strong> Mini “data chatbot” ideation</p>
+<section id="goals-non-goals" class="level3">
+<h3 class="anchored" data-anchor-id="goals-non-goals">2) Goals &amp; Non-Goals</h3>
 <ul>
-<li><strong>Key topics / activities:</strong> Choose dataset; plan load→clean→analyze→viz</li>
-<li><strong>Example / mini-project:</strong> Teams sketch prompts + steps for their dataset</li>
+<li><p><strong>Goals</strong></p>
+<ul>
+<li>Provide a clear function (<code>is_palindrome(text) -&gt; bool</code>) with a few lines of code.</li>
+<li>Demonstrate problem decomposition: normalize → compare → return.</li>
+<li>Include a tiny CLI/print demo cell so learners see outputs.</li>
+</ul></li>
+<li><p><strong>Non-Goals</strong></p>
+<ul>
+<li>No GUI, web API, or file I/O.</li>
+<li>No heavy NLP; keep logic readable and short.</li>
+</ul></li>
 </ul>
-<div id="79f49570" class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># </span><span class="al">TODO</span><span class="co">: Implement: Social Science Application Idea for Day 5</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Suggested starting hints from schedule:</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Title: Mini “data chatbot” ideation</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Key topics / activities: Choose dataset; plan load→clean→analyze→viz</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Example / Mini-project: Teams sketch prompts + steps for their dataset</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Write your code here...</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
-<section id="chatting-with-your-data-showcase" class="level3">
-<h3 class="anchored" data-anchor-id="chatting-with-your-data-showcase">Chatting with Your Data (Showcase)</h3>
-<p><strong>Planned focus:</strong> Project demos &amp; next steps</p>
+<section id="user-stories" class="level3">
+<h3 class="anchored" data-anchor-id="user-stories">3) User Stories</h3>
 <ul>
-<li><strong>Key topics / activities:</strong> Run notebooks; reflect on workflow; next resources</li>
-<li><strong>Example / mini-project:</strong> Short presentations + exported tables/plots</li>
+<li><em>As a learner</em>, I can run <code>is_palindrome(&quot;racecar&quot;)</code> and see <code>True</code>.</li>
+<li><em>As a learner</em>, I can paste phrases like <code>&quot;A man, a plan, a canal: Panama!&quot;</code> and still get the right answer after normalization.</li>
+<li><em>As an instructor</em>, I can show how to add/remove normalization (punctuation, spacing, case) and see tests pass/fail predictably.</li>
 </ul>
-<div id="c61b4912" class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># </span><span class="al">TODO</span><span class="co">: Implement: Chatting with Your Data (Showcase) for Day 5</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Suggested starting hints from schedule:</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Title: Project demos &amp; next steps</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Key topics / activities: Run notebooks; reflect on workflow; next resources</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Example / Mini-project: Short presentations + exported tables/plots</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Write your code here...</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+</section>
+<section id="functional-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="functional-requirements">4) Functional Requirements</h3>
+<ol type="1">
+<li><p><strong>Function</strong></p>
+<ul>
+<li>Signature: <code>def is_palindrome(text: str) -&gt; bool:</code></li>
+<li>Returns <code>True</code> if <code>text</code> reads identically forward and backward after normalization; else <code>False</code>.</li>
+</ul></li>
+<li><p><strong>Normalization (default behavior)</strong></p>
+<ul>
+<li>Lowercase via <code>.casefold()</code> (safer for Unicode).</li>
+<li>Remove all non-alphanumeric characters.</li>
+<li>Remove spaces.</li>
+<li>(Optional, commented line) Unicode normalization to NFC for edge cases.</li>
+</ul></li>
+<li><p><strong>Demo/Printing</strong></p>
+<ul>
+<li><p>A short <code>main</code>/demo cell that:</p>
+<ul>
+<li>Defines a small test list and prints input → result, e.g., <code>print(f&quot;{s!r}: {is_palindrome(s)}&quot;)</code>.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Structure</strong></p>
+<ul>
+<li>≤ 15 lines in the core function (readability first).</li>
+<li>Inline comments that map back to “variables, strings, conditionals, printing”.</li>
+</ul></li>
+</ol>
+</section>
+<section id="non-functional-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="non-functional-requirements">5) Non-Functional Requirements</h3>
+<ul>
+<li><strong>Clarity:</strong> Prefer readable Python over clever one-liners.</li>
+<li><strong>Portability:</strong> Works in Python 3.9+ (Colab default OK).</li>
+<li><strong>Teaching Value:</strong> Code is easy to modify (e.g., toggling normalization).</li>
+</ul>
+</section>
+<section id="definition-of-done-acceptance-criteria" class="level3">
+<h3 class="anchored" data-anchor-id="definition-of-done-acceptance-criteria">6) Definition of Done / Acceptance Criteria</h3>
+<ul>
+<li>A <code>.py</code> snippet or Colab cell containing <code>is_palindrome</code> plus a demo cell.</li>
+<li>Running the demo prints correct results for the acceptance tests below.</li>
+<li>Learners can change normalization lines and observe expected changes.</li>
+</ul>
+</section>
+<section id="acceptance-tests-minimum" class="level3">
+<h3 class="anchored" data-anchor-id="acceptance-tests-minimum">7) Acceptance Tests (Minimum)</h3>
+<ul>
+<li><p><code>is_palindrome(&quot;racecar&quot;) → True</code></p></li>
+<li><p><code>is_palindrome(&quot;RaceCar&quot;) → True</code></p></li>
+<li><p><code>is_palindrome(&quot;hello&quot;) → False</code></p></li>
+<li><p><code>is_palindrome(&quot;A man, a plan, a canal: Panama!&quot;) → True</code></p></li>
+<li><p><code>is_palindrome(&quot;&quot;) → True</code> <em>(empty string counts as palindrome)</em></p></li>
+<li><p><code>is_palindrome(&quot;Åsa&quot;)</code></p>
+<ul>
+<li>With casefold only: <strong>False</strong></li>
+<li>If normalized to alphanumerics only and reversed strictly: <strong>False</strong></li>
+<li><em>(Instructor note: use to discuss Unicode &amp; normalization limits.)</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="teaching-script-suggested" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-script-suggested">8) Teaching Script (Suggested)</h3>
+<ol type="1">
+<li>Show the raw comparison (<code>text == text[::-1]</code>).</li>
+<li>Add lowercasing; re-run tests.</li>
+<li>Add removal of non-alphanumerics; re-run tests.</li>
+<li>Print friendly messages to stdout; map to workshop topics (variables/conditionals/printing).</li>
+</ol>
+</section>
+<section id="example-implementation-reference" class="level3">
+<h3 class="anchored" data-anchor-id="example-implementation-reference">9) Example Implementation (Reference)</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> unicodedata</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_palindrome(text: <span class="bu">str</span>) <span class="op">-&gt;</span> <span class="bu">bool</span>:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 1) normalize (toggle/comment lines to teach step-by-step)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> text.casefold()</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># s = unicodedata.normalize(&quot;NFC&quot;, s)  # optional unicode normalization</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> re.sub(<span class="vs">r&quot;</span><span class="pp">[^0-9a-zA-Z]</span><span class="op">+</span><span class="vs">&quot;</span>, <span class="st">&quot;&quot;</span>, s)    <span class="co"># keep only alphanumerics</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 2) compare with reverse</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> s <span class="op">==</span> s[::<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Demo / printing (for Day 1)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>samples <span class="op">=</span> [</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;racecar&quot;</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;RaceCar&quot;</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;hello&quot;</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;A man, a plan, a canal: Panama!&quot;</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;&quot;</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Åsa&quot;</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> s <span class="kw">in</span> samples:</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>s<span class="sc">!r}</span><span class="ss"> -&gt; </span><span class="sc">{</span>is_palindrome(s)<span class="sc">}</span><span class="ss">&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="risks-mitigations" class="level3">
+<h3 class="anchored" data-anchor-id="risks-mitigations">10) Risks &amp; Mitigations</h3>
+<ul>
+<li><strong>Unicode edge cases:</strong> Explain that diacritics/ligatures can be tricky; show optional <code>unicodedata.normalize</code>.</li>
+<li><strong>Over-normalization:</strong> Removing all non-alphanumerics may change meaning; keep this as a teaching point.</li>
+</ul>
+</section>
+<section id="deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables">11) Deliverables</h3>
+<ul>
+<li>Code cell (or <code>palindrome.py</code>) with the function and demo.</li>
+<li>A short worksheet prompt: “Add an <code>elif</code> branch to print <em>why</em> a string failed (case vs punctuation).”</li>
+</ul>
+</section>
+<section id="success-metrics" class="level3">
+<h3 class="anchored" data-anchor-id="success-metrics">12) Success Metrics</h3>
+<ul>
+<li>Learners can explain the three steps (normalize → compare → return).</li>
+<li>≥80% of learners pass all acceptance tests within 10 minutes.</li>
+<li>Learners can modify normalization and predict outcomes correctly.</li>
+</ul>
 
 
+</section>
 </section>
 </section>
 
