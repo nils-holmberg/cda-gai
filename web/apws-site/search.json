@@ -4,7 +4,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "The following info is fetched from timeedit:"
+  },
+  {
+    "objectID": "about.html#workshop-schedule",
+    "href": "about.html#workshop-schedule",
+    "title": "About",
+    "section": "",
+    "text": "The following info is fetched from timeedit:"
+  },
+  {
+    "objectID": "about.html#workshop-map",
+    "href": "about.html#workshop-map",
+    "title": "About",
+    "section": "Workshop map",
+    "text": "Workshop map\n\n\n\nworkshop locations"
   },
   {
     "objectID": "apws-module-3.html",
@@ -44,16 +58,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "apws",
+    "title": "Algorithmic prompting",
     "section": "",
-    "text": "Algorithmic prompting means giving clear, step-by-step instructions that guide AI to do useful work. In this course, you’ll learn to turn plain-language questions into prompts that create tables, charts, and quick data checks. You won’t need deep coding skills—just a method for breaking problems into small, repeatable steps. By the end, you’ll use algorithmic prompts to automate routine tasks and explore data with confidence."
-  },
-  {
-    "objectID": "index.html#workshop-intro",
-    "href": "index.html#workshop-intro",
-    "title": "apws",
-    "section": "Workshop intro",
-    "text": "Workshop intro\nThis workshop is for anyone with little or no programming experience who wants to use Generative AI for data analysis. In the first two sessions, you’ll get comfortable in Google Colab, learn the basics of AI-aided low-code programming, and see how a few lines of Python can automate routine tasks and streamline your workflow.\nIn the remaining sessions, we’ll dive into AI-assisted analysis with Python: “chatting with your data” in natural language to create and manipulate tables, clean and transform datasets, and build clear visualizations. By the end, you’ll know how to combine low-code Python tools with modern AI assistants to load, explore, and visualize data efficiently—producing reproducible notebooks you can adapt to your own research and reporting.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Workshop link and Schedule\nAlgorithmic prompting means giving clear, step-by-step instructions that guide AI to do useful work. In this course, you’ll learn to turn plain-language questions into prompts that create tables, charts, and quick data checks. You won’t need deep coding skills—just a method for breaking problems into small, repeatable steps. By the end, you’ll use algorithmic prompts to automate routine tasks and explore data with confidence.\nThis workshop is for anyone with little or no programming experience who wants to use Generative AI for data analysis. In the first two sessions, you’ll get comfortable in Google Colab, learn the basics of AI-aided low-code programming, and see how a few lines of Python can automate routine tasks and streamline your workflow.\nIn the remaining sessions, we’ll dive into AI-assisted analysis with Python: “chatting with your data” in natural language to create and manipulate tables, clean and transform datasets, and build clear visualizations. By the end, you’ll know how to combine low-code Python tools with modern AI assistants to load, explore, and visualize data efficiently—producing reproducible notebooks you can adapt to your own research and reporting.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "apws-module-4.html",
