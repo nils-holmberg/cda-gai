@@ -88,22 +88,22 @@
     ]
   },
   {
-    "objectID": "about.html#workshop-schedule",
-    "href": "about.html#workshop-schedule",
+    "objectID": "about.html#schedule",
+    "href": "about.html#schedule",
     "title": "About",
-    "section": "Workshop schedule",
-    "text": "Workshop schedule\nThe following info is fetched from timeedit:",
+    "section": "Schedule",
+    "text": "Schedule\nThe following info is fetched from timeedit:",
     "crumbs": [
       "About",
       "Overview"
     ]
   },
   {
-    "objectID": "about.html#workshop-map",
-    "href": "about.html#workshop-map",
+    "objectID": "about.html#locations",
+    "href": "about.html#locations",
     "title": "About",
-    "section": "Workshop map",
-    "text": "Workshop map\n\n\n\nworkshop locations",
+    "section": "Locations",
+    "text": "Locations\n\n\n\nworkshop locations",
     "crumbs": [
       "About",
       "Overview"
