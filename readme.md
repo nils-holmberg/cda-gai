@@ -19,7 +19,7 @@ In the remaining sessions, the course dives into AI-assisted data analysis using
 - modularity, independence
 - start small, scale up
 - minimal viable product (mvp)
-- fail early 
+- fail early.. 
 - reduce complexity, refactor
 - each function does one thing
 
