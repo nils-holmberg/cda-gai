@@ -1,0 +1,3 @@
+Coding for dummies workshop is for anyone with little or no programming experience who wants to use Generative AI for data analysis. In the first two sessions, you’ll get comfortable in Google Colab, learn the basics of AI-aided low-code programming, and see how a few lines of Python can automate routine tasks and streamline your workflow.
+
+In the remaining sessions, we’ll dive into AI-assisted analysis with Python: “chatting with your data” in natural language to create and manipulate tables, clean and transform datasets, and build clear visualizations. By the end, you’ll know how to combine low-code Python tools with modern AI assistants to load, explore, and visualize data efficiently—producing reproducible notebooks you can adapt to your own research and reporting.
