@@ -11,50 +11,6 @@
     ]
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
-    "crumbs": [
-      "About",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "resources.html#literature",
-    "href": "resources.html#literature",
-    "title": "Resources",
-    "section": "",
-    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
-    "crumbs": [
-      "About",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "resources.html#websites-and-apps",
-    "href": "resources.html#websites-and-apps",
-    "title": "Resources",
-    "section": "websites and apps",
-    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home",
-    "crumbs": [
-      "About",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "resources.html#online-articles",
-    "href": "resources.html#online-articles",
-    "title": "Resources",
-    "section": "online articles",
-    "text": "online articles\n\nsome text here Kedia and Rasu (2020)",
-    "crumbs": [
-      "About",
-      "Overview"
-    ]
-  },
-  {
     "objectID": "apws-module-4.html",
     "href": "apws-module-4.html",
     "title": "4: Humans need data summary",
@@ -66,65 +22,15 @@
     ]
   },
   {
-    "objectID": "apws-module-3.html",
-    "href": "apws-module-3.html",
-    "title": "3: Data transformations!!",
+    "objectID": "feedback-form.html",
+    "href": "feedback-form.html",
+    "title": "Workshop feedback form",
     "section": "",
-    "text": "# Empty code cell with Python comment preceded by hash sign \"# \"\n\n\nGenerate a simple Python program\nPlanned focus: Normalize a list to 0–1 and compare\n\nKey topics / activities: Min–max scaling, lists → DataFrame, two-column output\nExample / mini-project: Create a two-column DataFrame: original vs normalized values\n\n\n# TODO: Implement: Generate a simple Python program for Day 3\n# Suggested starting hints from schedule:\n# Title: Normalize a list to 0–1 and compare\n# Key topics / activities: Min–max scaling, lists → DataFrame, two-column output\n# Example / Mini-project: Create a two-column DataFrame: original vs normalized values\n\n# Write your code here...\n\n\n\nSolve problem in your own work\nPlanned focus: Anonymize & categorize respondents\n\nKey topics / activities: Regex for names, age binning into 3 groups\nExample / mini-project: Read TSV (first,last,age,preference), anonymize IDs, add 3 age categories\n\n\n# TODO: Implement: Solve problem in your own work for Day 3\n# Suggested starting hints from schedule:\n# Title: Anonymize & categorize respondents\n# Key topics / activities: Regex for names, age binning into 3 groups\n# Example / Mini-project: Read TSV (first,last,age,preference), anonymize IDs, add 3 age categories\n\n# Write your code here...\n\n\n\nPerform data science using GenAI\nPlanned focus: Median split & missing-value handling on penguins\n\nKey topics / activities: Recode numeric → categorical (median), drop NAs\nExample / mini-project: Recode a numeric variable by median split; remove missing values\n\n\n# TODO: Implement: Perform data science using GenAI for Day 3\n# Suggested starting hints from schedule:\n# Title: Median split & missing-value handling on penguins\n# Key topics / activities: Recode numeric → categorical (median), drop NAs\n# Example / Mini-project: Recode a numeric variable by median split; remove missing values\n\n# Write your code here...",
+    "text": "Loading…",
     "crumbs": [
       "About",
-      "3: Data transformations!!"
+      "Feedback form"
     ]
-  },
-  {
-    "objectID": "apws-module-2.html",
-    "href": "apws-module-2.html",
-    "title": "2: Understand your dataset",
-    "section": "",
-    "text": "# Lets recapitulate module 1: reading data into python env! Try some of the following:\n\n# 1. upload local data file to colab and read it into dataframe, e.g. xlsx\n\n# 2. upload local image or text files and read to data objects, e.g. png, txt\n\n# 3. mount google drive in colab and access files from persistent cloud storage\n\n# 4. download files from github or other online data repository, e.g. osf, zenodo\n!git clone https://github.com/nils-holmberg/cda-gai.git\n\n\nGenerate a simple Python program\nPlanned focus: Line-by-line prime number tester\n\nKey topics / activities: Loops, modulo, input/file I/O, simple edge cases\nExample / mini-project: Test numbers from hardcoded/input/file and label prime/non-prime\n\n\n# TODO: Implement: Generate a simple Python program for Day 2\n# Suggested starting hints from schedule:\n# Title: Line-by-line prime number tester\n# Key topics / activities: Loops, modulo, input/file I/O, simple edge cases\n# Example / Mini-project: Test numbers from hardcoded/input/file and label prime/non-prime\n\n# Write your code here...\n\n\n\nSolve problem in your own work\nPlanned focus: Top words & keyword check\n\nKey topics / activities: Text cleaning, Counter, filtering by length\nExample / mini-project: From a text file, list 10 most frequent words (&gt;7 chars) and detect a target word\n\n\n# TODO: Implement: Solve problem in your own work for Day 2\n# Suggested starting hints from schedule:\n# Title: Top words & keyword check\n# Key topics / activities: Text cleaning, `Counter`, filtering by length\n# Example / Mini-project: From a text file, list 10 most frequent words (&gt;7 chars) and detect a target word\n\n# Write your code here...\n\n\n\nPerform data science using GenAI\nPlanned focus: Explore the penguins dataset\n\nKey topics / activities: Data loading from package, describe(), value_counts(), simple plots\nExample / mini-project: Load a penguins DataFrame and compute basic descriptives\n\n\n# TODO: Implement: Perform data science using GenAI for Day 2\n# Suggested starting hints from schedule:\n# Title: Explore the penguins dataset\n# Key topics / activities: Data loading from package, describe(), value_counts(), simple plots\n# Example / Mini-project: Load a penguins DataFrame and compute basic descriptives\n\n# Write your code here...",
-    "crumbs": [
-      "About",
-      "2: Understand your dataset"
-    ]
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Coding for Dummies — Workshop Program",
-    "section": "",
-    "text": "import pandas as pd\nfrom pathlib import Path\n\n# Adjust path if your TSV has a different name/location\ntsv_path = Path(\"schedule.tsv\")\n\n# Read TSV\ndf = pd.read_csv(tsv_path, sep=\"\\t\")\n\n# Create sortable keys\nday_order = {f\"Day {i}\": i for i in range(1, 6)}\nhour_order = {\"1\": 1, \"2\": 2, \"3\": 3}\n\ndf[\"DaySort\"] = df[\"Day\"].map(day_order)\ndf[\"HourSort\"] = df[\"Hour\"].astype(str).map(hour_order)\n\ndf = df.sort_values([\"DaySort\", \"HourSort\", \"Session Type\"]).drop(columns=[\"DaySort\",\"HourSort\"])\n\n# Render as HTML table (Quarto will display this nicely)\ndf\n\n\n\n\n\n\n\n\nDay\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\n0\nDay 1\nGet comfortable with Python syntax and Google ...\n1\nSimple Python Program\nTest if a string is a palindrome\nVariables, strings, conditionals, printing\nFunction that returns True/False for palindrome\n\n\n1\nDay 1\nGet comfortable with Python syntax and Google ...\n2\nSocial Science Application Idea\nCounting words in a transcript\nBrainstorm repetitive academic tasks; file I/O...\nLoad a .txt interview, count words, save a sum...\n\n\n2\nDay 1\nGet comfortable with Python syntax and Google ...\n3\nChatting with Your Data (Intro)\nSet up Colab + AI assistant\nInstall/load helpers; prompt-to-code generation\n“Make a table from survey results and sort by ...\n\n\n3\nDay 2\nLearn data structures and ingest/clean small d...\n1\nSimple Python Program\nTest if a number is prime\nLoops, modulo, early returns, simple functions\nReusable `is_prime(n)` with basic tests\n\n\n4\nDay 2\nLearn data structures and ingest/clean small d...\n2\nSocial Science Application Idea\nImport and clean a survey CSV\nRead CSV, drop duplicates, handle missing, exp...\nClean `survey.csv` → `survey_clean.csv`\n\n\n5\nDay 2\nLearn data structures and ingest/clean small d...\n3\nChatting with Your Data (Tables)\nConversational queries over tables\nUpload CSV/Excel; ask AI for cleaning & summaries\n“Top 5 categories by count” + basic describe()\n\n\n6\nDay 3\nAutomate common research data collection/prep ...\n1\nSimple Python Program\nGenerate a random password\nStrings, randomness, loops, parameterization\nPassword with letters/digits; length argument\n\n\n7\nDay 3\nAutomate common research data collection/prep ...\n2\nSocial Science Application Idea\nLightweight web scraping for text\nRequests/BeautifulSoup (guided by AI); save to...\nScrape headlines and timestamps into `news.csv`\n\n\n8\nDay 3\nAutomate common research data collection/prep ...\n3\nChatting with Your Data (Text)\nAI-assisted text analysis\nTokenization, keywords, quick sentiment\n“Most common terms in a policy document”\n\n\n9\nDay 4\nTell data stories with basic charts (Matplotli...\n1\nSimple Python Program\nCompute Fibonacci up to N\nLists, loops, function returns\nSimple sequence generator and print\n\n\n10\nDay 4\nTell data stories with basic charts (Matplotli...\n2\nSocial Science Application Idea\nPlot survey results over time\nData grouping, aggregations, export figures\nBar/line chart of response counts by month\n\n\n11\nDay 4\nTell data stories with basic charts (Matplotli...\n3\nChatting with Your Data (Graphs)\nPrompt-to-plot workflow\nCreate chart via natural language; customize l...\nAuto-generated bar chart with titles/axes save...\n\n\n12\nDay 5\nIntegrate skills into a small end-to-end project\n1\nSimple Python Program\nAverage & median from a list\nLists, built-ins, simple stats\n`mean/median` on example list + edge cases\n\n\n13\nDay 5\nIntegrate skills into a small end-to-end project\n2\nSocial Science Application Idea\nMini “data chatbot” ideation\nChoose dataset; plan load→clean→analyze→viz\nTeams sketch prompts + steps for their dataset\n\n\n14\nDay 5\nIntegrate skills into a small end-to-end project\n3\nChatting with Your Data (Showcase)\nProject demos & next steps\nRun notebooks; reflect on workflow; next resou...\nShort presentations + exported tables/plots"
-  },
-  {
-    "objectID": "schedule.html#program-table",
-    "href": "schedule.html#program-table",
-    "title": "Coding for Dummies — Workshop Program",
-    "section": "",
-    "text": "import pandas as pd\nfrom pathlib import Path\n\n# Adjust path if your TSV has a different name/location\ntsv_path = Path(\"schedule.tsv\")\n\n# Read TSV\ndf = pd.read_csv(tsv_path, sep=\"\\t\")\n\n# Create sortable keys\nday_order = {f\"Day {i}\": i for i in range(1, 6)}\nhour_order = {\"1\": 1, \"2\": 2, \"3\": 3}\n\ndf[\"DaySort\"] = df[\"Day\"].map(day_order)\ndf[\"HourSort\"] = df[\"Hour\"].astype(str).map(hour_order)\n\ndf = df.sort_values([\"DaySort\", \"HourSort\", \"Session Type\"]).drop(columns=[\"DaySort\",\"HourSort\"])\n\n# Render as HTML table (Quarto will display this nicely)\ndf\n\n\n\n\n\n\n\n\nDay\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\n0\nDay 1\nGet comfortable with Python syntax and Google ...\n1\nSimple Python Program\nTest if a string is a palindrome\nVariables, strings, conditionals, printing\nFunction that returns True/False for palindrome\n\n\n1\nDay 1\nGet comfortable with Python syntax and Google ...\n2\nSocial Science Application Idea\nCounting words in a transcript\nBrainstorm repetitive academic tasks; file I/O...\nLoad a .txt interview, count words, save a sum...\n\n\n2\nDay 1\nGet comfortable with Python syntax and Google ...\n3\nChatting with Your Data (Intro)\nSet up Colab + AI assistant\nInstall/load helpers; prompt-to-code generation\n“Make a table from survey results and sort by ...\n\n\n3\nDay 2\nLearn data structures and ingest/clean small d...\n1\nSimple Python Program\nTest if a number is prime\nLoops, modulo, early returns, simple functions\nReusable `is_prime(n)` with basic tests\n\n\n4\nDay 2\nLearn data structures and ingest/clean small d...\n2\nSocial Science Application Idea\nImport and clean a survey CSV\nRead CSV, drop duplicates, handle missing, exp...\nClean `survey.csv` → `survey_clean.csv`\n\n\n5\nDay 2\nLearn data structures and ingest/clean small d...\n3\nChatting with Your Data (Tables)\nConversational queries over tables\nUpload CSV/Excel; ask AI for cleaning & summaries\n“Top 5 categories by count” + basic describe()\n\n\n6\nDay 3\nAutomate common research data collection/prep ...\n1\nSimple Python Program\nGenerate a random password\nStrings, randomness, loops, parameterization\nPassword with letters/digits; length argument\n\n\n7\nDay 3\nAutomate common research data collection/prep ...\n2\nSocial Science Application Idea\nLightweight web scraping for text\nRequests/BeautifulSoup (guided by AI); save to...\nScrape headlines and timestamps into `news.csv`\n\n\n8\nDay 3\nAutomate common research data collection/prep ...\n3\nChatting with Your Data (Text)\nAI-assisted text analysis\nTokenization, keywords, quick sentiment\n“Most common terms in a policy document”\n\n\n9\nDay 4\nTell data stories with basic charts (Matplotli...\n1\nSimple Python Program\nCompute Fibonacci up to N\nLists, loops, function returns\nSimple sequence generator and print\n\n\n10\nDay 4\nTell data stories with basic charts (Matplotli...\n2\nSocial Science Application Idea\nPlot survey results over time\nData grouping, aggregations, export figures\nBar/line chart of response counts by month\n\n\n11\nDay 4\nTell data stories with basic charts (Matplotli...\n3\nChatting with Your Data (Graphs)\nPrompt-to-plot workflow\nCreate chart via natural language; customize l...\nAuto-generated bar chart with titles/axes save...\n\n\n12\nDay 5\nIntegrate skills into a small end-to-end project\n1\nSimple Python Program\nAverage & median from a list\nLists, built-ins, simple stats\n`mean/median` on example list + edge cases\n\n\n13\nDay 5\nIntegrate skills into a small end-to-end project\n2\nSocial Science Application Idea\nMini “data chatbot” ideation\nChoose dataset; plan load→clean→analyze→viz\nTeams sketch prompts + steps for their dataset\n\n\n14\nDay 5\nIntegrate skills into a small end-to-end project\n3\nChatting with Your Data (Showcase)\nProject demos & next steps\nRun notebooks; reflect on workflow; next resou...\nShort presentations + exported tables/plots"
-  },
-  {
-    "objectID": "schedule.html#some-info",
-    "href": "schedule.html#some-info",
-    "title": "Coding for Dummies — Workshop Program",
-    "section": "some info",
-    "text": "some info\n\nfrom IPython.display import display, Markdown, HTML\n\n# Use the already-sorted df from the previous cell\nfor day, g in df.groupby(\"Day\", sort=False):\n    display(Markdown(f\"### {day}\"))\n    # Drop the repeated Day column and render a clean sub-table\n    display(HTML(g.drop(columns=[\"Day\"]).to_html(index=False)))\n\nDay 1\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nGet comfortable with Python syntax and Google Colab basics\n1\nSimple Python Program\nTest if a string is a palindrome\nVariables, strings, conditionals, printing\nFunction that returns True/False for palindrome\n\n\nGet comfortable with Python syntax and Google Colab basics\n2\nSocial Science Application Idea\nCounting words in a transcript\nBrainstorm repetitive academic tasks; file I/O; basic text ops\nLoad a .txt interview, count words, save a summary\n\n\nGet comfortable with Python syntax and Google Colab basics\n3\nChatting with Your Data (Intro)\nSet up Colab + AI assistant\nInstall/load helpers; prompt-to-code generation\n“Make a table from survey results and sort by age”\n\n\n\n\n\nDay 2\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nLearn data structures and ingest/clean small datasets via low-code patterns\n1\nSimple Python Program\nTest if a number is prime\nLoops, modulo, early returns, simple functions\nReusable `is_prime(n)` with basic tests\n\n\nLearn data structures and ingest/clean small datasets via low-code patterns\n2\nSocial Science Application Idea\nImport and clean a survey CSV\nRead CSV, drop duplicates, handle missing, export clean CSV\nClean `survey.csv` → `survey_clean.csv`\n\n\nLearn data structures and ingest/clean small datasets via low-code patterns\n3\nChatting with Your Data (Tables)\nConversational queries over tables\nUpload CSV/Excel; ask AI for cleaning & summaries\n“Top 5 categories by count” + basic describe()\n\n\n\n\n\nDay 3\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nAutomate common research data collection/prep tasks\n1\nSimple Python Program\nGenerate a random password\nStrings, randomness, loops, parameterization\nPassword with letters/digits; length argument\n\n\nAutomate common research data collection/prep tasks\n2\nSocial Science Application Idea\nLightweight web scraping for text\nRequests/BeautifulSoup (guided by AI); save to CSV\nScrape headlines and timestamps into `news.csv`\n\n\nAutomate common research data collection/prep tasks\n3\nChatting with Your Data (Text)\nAI-assisted text analysis\nTokenization, keywords, quick sentiment\n“Most common terms in a policy document”\n\n\n\n\n\nDay 4\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nTell data stories with basic charts (Matplotlib/Plotly)\n1\nSimple Python Program\nCompute Fibonacci up to N\nLists, loops, function returns\nSimple sequence generator and print\n\n\nTell data stories with basic charts (Matplotlib/Plotly)\n2\nSocial Science Application Idea\nPlot survey results over time\nData grouping, aggregations, export figures\nBar/line chart of response counts by month\n\n\nTell data stories with basic charts (Matplotlib/Plotly)\n3\nChatting with Your Data (Graphs)\nPrompt-to-plot workflow\nCreate chart via natural language; customize labels\nAuto-generated bar chart with titles/axes saved as PNG\n\n\n\n\n\nDay 5\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nIntegrate skills into a small end-to-end project\n1\nSimple Python Program\nAverage & median from a list\nLists, built-ins, simple stats\n`mean/median` on example list + edge cases\n\n\nIntegrate skills into a small end-to-end project\n2\nSocial Science Application Idea\nMini “data chatbot” ideation\nChoose dataset; plan load→clean→analyze→viz\nTeams sketch prompts + steps for their dataset\n\n\nIntegrate skills into a small end-to-end project\n3\nChatting with Your Data (Showcase)\nProject demos & next steps\nRun notebooks; reflect on workflow; next resources\nShort presentations + exported tables/plots"
-  },
-  {
-    "objectID": "apws-module-5.html",
-    "href": "apws-module-5.html",
-    "title": "5: Seeing (data) is believing",
-    "section": "",
-    "text": "# Lets recapitulate modules! Try some of the following:\n\n# 1. play with image creation, mask images, and edge images, features\n\n# 2. load the penguins dataframe, create descriptives, histogram\n\n# 3. visualize body mass as a function of species, bar plot\n\n# 4. save bar plot bar plot with error bars as high quality figure\n\n# 5. visualize flipper length and body mass as scatterplot\n\n# 6. visualize data model, separate by species and draw trend lines\n\n# 7. encapsulate your coding, program as product requirement document\n\n\nGenerate a simple Python program\nPlanned focus: Draw a circle with NumPy and save PNG\n\nKey topics / activities: NumPy arrays as images, basic image I/O\nExample / mini-project: Create 100×100 image: green background with white circle; save as PNG\n\n\n# TODO: Implement: Generate a simple Python program for Day 5\n# Suggested starting hints from schedule:\n# Title: Draw a circle with NumPy and save PNG\n# Key topics / activities: NumPy arrays as images, basic image I/O\n# Example / Mini-project: Create 100×100 image: green background with white circle; save as PNG\n\n# Write your code here...\n\n\n\nSolve problem in your own work\nPlanned focus: Simulate an interaction & visualize\n\nKey topics / activities: Bivariate median splits, data simulation, error bars\nExample / mini-project: Generate data showing A×B interaction and plot grouped bars with error bars\n\n\n# TODO: Implement: Solve problem in your own work for Day 5\n# Suggested starting hints from schedule:\n# Title: Simulate an interaction & visualize\n# Key topics / activities: Bivariate median splits, data simulation, error bars\n# Example / Mini-project: Generate data showing A×B interaction and plot grouped bars with error bars\n\n# Write your code here...\n\n\n\nPerform data science using GenAI\nPlanned focus: Median split & cleanup on penguins (viz-ready)\n\nKey topics / activities: Recode by median, drop NAs, prep for plotting\nExample / mini-project: Recreate median-split categorical variable and export a clean, plot-ready table\n\n\n# TODO: Implement: Perform data science using GenAI for Day 5\n# Suggested starting hints from schedule:\n# Title: Median split & cleanup on penguins (viz-ready)\n# Key topics / activities: Recode by median, drop NAs, prep for plotting\n# Example / Mini-project: Recreate median-split categorical variable and export a clean, plot-ready table\n\n# Write your code here...",
-    "crumbs": [
-      "About",
-      "5: Seeing (data) is believing"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Algorithmic prompting",
-    "section": "",
-    "text": "Workshop link and Schedule\nAlgorithmic prompting means giving clear, step-by-step instructions that guide AI to do useful work. In this course, you’ll learn to turn plain-language questions into prompts that create tables, charts, and quick data checks. You won’t need deep coding skills—just a method for breaking problems into small, repeatable steps. By the end, you’ll use algorithmic prompts to automate routine tasks and explore data with confidence.\nCoding for dummies workshop is for anyone with little or no programming experience who wants to use Generative AI for data analysis. In the first two sessions, you’ll get comfortable in Google Colab, learn the basics of AI-aided low-code programming, and see how a few lines of Python can automate routine tasks and streamline your workflow.\nIn the remaining sessions, we’ll dive into AI-assisted analysis with Python: “chatting with your data” in natural language to create and manipulate tables, clean and transform datasets, and build clear visualizations. By the end, you’ll know how to combine low-code Python tools with modern AI assistants to load, explore, and visualize data efficiently—producing reproducible notebooks you can adapt to your own research and reporting.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "about.html",
@@ -182,14 +88,207 @@
     ]
   },
   {
-    "objectID": "feedback-form.html",
-    "href": "feedback-form.html",
-    "title": "Feedback form",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Algorithmic prompting",
     "section": "",
-    "text": "Loading…",
+    "text": "Workshop link and Schedule\nAlgorithmic prompting means giving clear, step-by-step instructions that guide AI to do useful work. In this course, you’ll learn to turn plain-language questions into prompts that create tables, charts, and quick data checks. You won’t need deep coding skills—just a method for breaking problems into small, repeatable steps. By the end, you’ll use algorithmic prompts to automate routine tasks and explore data with confidence.\nCoding for dummies workshop is for anyone with little or no programming experience who wants to use Generative AI for data analysis. In the first two sessions, you’ll get comfortable in Google Colab, learn the basics of AI-aided low-code programming, and see how a few lines of Python can automate routine tasks and streamline your workflow.\nIn the remaining sessions, we’ll dive into AI-assisted analysis with Python: “chatting with your data” in natural language to create and manipulate tables, clean and transform datasets, and build clear visualizations. By the end, you’ll know how to combine low-code Python tools with modern AI assistants to load, explore, and visualize data efficiently—producing reproducible notebooks you can adapt to your own research and reporting.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "apws-module-5.html",
+    "href": "apws-module-5.html",
+    "title": "5: Seeing (data) is believing",
+    "section": "",
+    "text": "# Lets recapitulate modules! Try some of the following:\n\n# 1. play with image creation, mask images, and edge images, features\n\n# 2. load the penguins dataframe, create descriptives, histogram\n\n# 3. visualize body mass as a function of species, bar plot\n\n# 4. save bar plot bar plot with error bars as high quality figure\n\n# 5. visualize flipper length and body mass as scatterplot\n\n# 6. visualize data model, separate by species and draw trend lines\n\n# 7. encapsulate your coding, program as product requirement document\n\n\nGenerate a simple Python program\nPlanned focus: Draw a circle with NumPy and save PNG\n\nKey topics / activities: NumPy arrays as images, basic image I/O\nExample / mini-project: Create 100×100 image: green background with white circle; save as PNG\n\n\n# TODO: Implement: Generate a simple Python program for Day 5\n# Suggested starting hints from schedule:\n# Title: Draw a circle with NumPy and save PNG\n# Key topics / activities: NumPy arrays as images, basic image I/O\n# Example / Mini-project: Create 100×100 image: green background with white circle; save as PNG\n\n# Write your code here...\n\n\n\nSolve problem in your own work\nPlanned focus: Simulate an interaction & visualize\n\nKey topics / activities: Bivariate median splits, data simulation, error bars\nExample / mini-project: Generate data showing A×B interaction and plot grouped bars with error bars\n\n\n# TODO: Implement: Solve problem in your own work for Day 5\n# Suggested starting hints from schedule:\n# Title: Simulate an interaction & visualize\n# Key topics / activities: Bivariate median splits, data simulation, error bars\n# Example / Mini-project: Generate data showing A×B interaction and plot grouped bars with error bars\n\n# Write your code here...\n\n\n\nPerform data science using GenAI\nPlanned focus: Median split & cleanup on penguins (viz-ready)\n\nKey topics / activities: Recode by median, drop NAs, prep for plotting\nExample / mini-project: Recreate median-split categorical variable and export a clean, plot-ready table\n\n\n# TODO: Implement: Perform data science using GenAI for Day 5\n# Suggested starting hints from schedule:\n# Title: Median split & cleanup on penguins (viz-ready)\n# Key topics / activities: Recode by median, drop NAs, prep for plotting\n# Example / Mini-project: Recreate median-split categorical variable and export a clean, plot-ready table\n\n# Write your code here...",
     "crumbs": [
       "About",
-      "Feedback form"
+      "5: Seeing (data) is believing"
+    ]
+  },
+  {
+    "objectID": "books-web.html",
+    "href": "books-web.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
+    "crumbs": [
+      "About",
+      "Literature"
+    ]
+  },
+  {
+    "objectID": "books-web.html#literature",
+    "href": "books-web.html#literature",
+    "title": "Resources",
+    "section": "",
+    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
+    "crumbs": [
+      "About",
+      "Literature"
+    ]
+  },
+  {
+    "objectID": "books-web.html#websites-and-apps",
+    "href": "books-web.html#websites-and-apps",
+    "title": "Resources",
+    "section": "websites and apps",
+    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home",
+    "crumbs": [
+      "About",
+      "Literature"
+    ]
+  },
+  {
+    "objectID": "books-web.html#online-articles",
+    "href": "books-web.html#online-articles",
+    "title": "Resources",
+    "section": "online articles",
+    "text": "online articles\n\nsome text here Kedia and Rasu (2020)",
+    "crumbs": [
+      "About",
+      "Literature"
+    ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Coding for Dummies — Workshop Program",
+    "section": "",
+    "text": "import pandas as pd\nfrom pathlib import Path\n\n# Adjust path if your TSV has a different name/location\ntsv_path = Path(\"schedule.tsv\")\n\n# Read TSV\ndf = pd.read_csv(tsv_path, sep=\"\\t\")\n\n# Create sortable keys\nday_order = {f\"Day {i}\": i for i in range(1, 6)}\nhour_order = {\"1\": 1, \"2\": 2, \"3\": 3}\n\ndf[\"DaySort\"] = df[\"Day\"].map(day_order)\ndf[\"HourSort\"] = df[\"Hour\"].astype(str).map(hour_order)\n\ndf = df.sort_values([\"DaySort\", \"HourSort\", \"Session Type\"]).drop(columns=[\"DaySort\",\"HourSort\"])\n\n# Render as HTML table (Quarto will display this nicely)\ndf\n\n\n\n\n\n\n\n\nDay\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\n0\nDay 1\nGet comfortable with Python syntax and Google ...\n1\nSimple Python Program\nTest if a string is a palindrome\nVariables, strings, conditionals, printing\nFunction that returns True/False for palindrome\n\n\n1\nDay 1\nGet comfortable with Python syntax and Google ...\n2\nSocial Science Application Idea\nCounting words in a transcript\nBrainstorm repetitive academic tasks; file I/O...\nLoad a .txt interview, count words, save a sum...\n\n\n2\nDay 1\nGet comfortable with Python syntax and Google ...\n3\nChatting with Your Data (Intro)\nSet up Colab + AI assistant\nInstall/load helpers; prompt-to-code generation\n“Make a table from survey results and sort by ...\n\n\n3\nDay 2\nLearn data structures and ingest/clean small d...\n1\nSimple Python Program\nTest if a number is prime\nLoops, modulo, early returns, simple functions\nReusable `is_prime(n)` with basic tests\n\n\n4\nDay 2\nLearn data structures and ingest/clean small d...\n2\nSocial Science Application Idea\nImport and clean a survey CSV\nRead CSV, drop duplicates, handle missing, exp...\nClean `survey.csv` → `survey_clean.csv`\n\n\n5\nDay 2\nLearn data structures and ingest/clean small d...\n3\nChatting with Your Data (Tables)\nConversational queries over tables\nUpload CSV/Excel; ask AI for cleaning & summaries\n“Top 5 categories by count” + basic describe()\n\n\n6\nDay 3\nAutomate common research data collection/prep ...\n1\nSimple Python Program\nGenerate a random password\nStrings, randomness, loops, parameterization\nPassword with letters/digits; length argument\n\n\n7\nDay 3\nAutomate common research data collection/prep ...\n2\nSocial Science Application Idea\nLightweight web scraping for text\nRequests/BeautifulSoup (guided by AI); save to...\nScrape headlines and timestamps into `news.csv`\n\n\n8\nDay 3\nAutomate common research data collection/prep ...\n3\nChatting with Your Data (Text)\nAI-assisted text analysis\nTokenization, keywords, quick sentiment\n“Most common terms in a policy document”\n\n\n9\nDay 4\nTell data stories with basic charts (Matplotli...\n1\nSimple Python Program\nCompute Fibonacci up to N\nLists, loops, function returns\nSimple sequence generator and print\n\n\n10\nDay 4\nTell data stories with basic charts (Matplotli...\n2\nSocial Science Application Idea\nPlot survey results over time\nData grouping, aggregations, export figures\nBar/line chart of response counts by month\n\n\n11\nDay 4\nTell data stories with basic charts (Matplotli...\n3\nChatting with Your Data (Graphs)\nPrompt-to-plot workflow\nCreate chart via natural language; customize l...\nAuto-generated bar chart with titles/axes save...\n\n\n12\nDay 5\nIntegrate skills into a small end-to-end project\n1\nSimple Python Program\nAverage & median from a list\nLists, built-ins, simple stats\n`mean/median` on example list + edge cases\n\n\n13\nDay 5\nIntegrate skills into a small end-to-end project\n2\nSocial Science Application Idea\nMini “data chatbot” ideation\nChoose dataset; plan load→clean→analyze→viz\nTeams sketch prompts + steps for their dataset\n\n\n14\nDay 5\nIntegrate skills into a small end-to-end project\n3\nChatting with Your Data (Showcase)\nProject demos & next steps\nRun notebooks; reflect on workflow; next resou...\nShort presentations + exported tables/plots"
+  },
+  {
+    "objectID": "schedule.html#program-table",
+    "href": "schedule.html#program-table",
+    "title": "Coding for Dummies — Workshop Program",
+    "section": "",
+    "text": "import pandas as pd\nfrom pathlib import Path\n\n# Adjust path if your TSV has a different name/location\ntsv_path = Path(\"schedule.tsv\")\n\n# Read TSV\ndf = pd.read_csv(tsv_path, sep=\"\\t\")\n\n# Create sortable keys\nday_order = {f\"Day {i}\": i for i in range(1, 6)}\nhour_order = {\"1\": 1, \"2\": 2, \"3\": 3}\n\ndf[\"DaySort\"] = df[\"Day\"].map(day_order)\ndf[\"HourSort\"] = df[\"Hour\"].astype(str).map(hour_order)\n\ndf = df.sort_values([\"DaySort\", \"HourSort\", \"Session Type\"]).drop(columns=[\"DaySort\",\"HourSort\"])\n\n# Render as HTML table (Quarto will display this nicely)\ndf\n\n\n\n\n\n\n\n\nDay\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\n0\nDay 1\nGet comfortable with Python syntax and Google ...\n1\nSimple Python Program\nTest if a string is a palindrome\nVariables, strings, conditionals, printing\nFunction that returns True/False for palindrome\n\n\n1\nDay 1\nGet comfortable with Python syntax and Google ...\n2\nSocial Science Application Idea\nCounting words in a transcript\nBrainstorm repetitive academic tasks; file I/O...\nLoad a .txt interview, count words, save a sum...\n\n\n2\nDay 1\nGet comfortable with Python syntax and Google ...\n3\nChatting with Your Data (Intro)\nSet up Colab + AI assistant\nInstall/load helpers; prompt-to-code generation\n“Make a table from survey results and sort by ...\n\n\n3\nDay 2\nLearn data structures and ingest/clean small d...\n1\nSimple Python Program\nTest if a number is prime\nLoops, modulo, early returns, simple functions\nReusable `is_prime(n)` with basic tests\n\n\n4\nDay 2\nLearn data structures and ingest/clean small d...\n2\nSocial Science Application Idea\nImport and clean a survey CSV\nRead CSV, drop duplicates, handle missing, exp...\nClean `survey.csv` → `survey_clean.csv`\n\n\n5\nDay 2\nLearn data structures and ingest/clean small d...\n3\nChatting with Your Data (Tables)\nConversational queries over tables\nUpload CSV/Excel; ask AI for cleaning & summaries\n“Top 5 categories by count” + basic describe()\n\n\n6\nDay 3\nAutomate common research data collection/prep ...\n1\nSimple Python Program\nGenerate a random password\nStrings, randomness, loops, parameterization\nPassword with letters/digits; length argument\n\n\n7\nDay 3\nAutomate common research data collection/prep ...\n2\nSocial Science Application Idea\nLightweight web scraping for text\nRequests/BeautifulSoup (guided by AI); save to...\nScrape headlines and timestamps into `news.csv`\n\n\n8\nDay 3\nAutomate common research data collection/prep ...\n3\nChatting with Your Data (Text)\nAI-assisted text analysis\nTokenization, keywords, quick sentiment\n“Most common terms in a policy document”\n\n\n9\nDay 4\nTell data stories with basic charts (Matplotli...\n1\nSimple Python Program\nCompute Fibonacci up to N\nLists, loops, function returns\nSimple sequence generator and print\n\n\n10\nDay 4\nTell data stories with basic charts (Matplotli...\n2\nSocial Science Application Idea\nPlot survey results over time\nData grouping, aggregations, export figures\nBar/line chart of response counts by month\n\n\n11\nDay 4\nTell data stories with basic charts (Matplotli...\n3\nChatting with Your Data (Graphs)\nPrompt-to-plot workflow\nCreate chart via natural language; customize l...\nAuto-generated bar chart with titles/axes save...\n\n\n12\nDay 5\nIntegrate skills into a small end-to-end project\n1\nSimple Python Program\nAverage & median from a list\nLists, built-ins, simple stats\n`mean/median` on example list + edge cases\n\n\n13\nDay 5\nIntegrate skills into a small end-to-end project\n2\nSocial Science Application Idea\nMini “data chatbot” ideation\nChoose dataset; plan load→clean→analyze→viz\nTeams sketch prompts + steps for their dataset\n\n\n14\nDay 5\nIntegrate skills into a small end-to-end project\n3\nChatting with Your Data (Showcase)\nProject demos & next steps\nRun notebooks; reflect on workflow; next resou...\nShort presentations + exported tables/plots"
+  },
+  {
+    "objectID": "schedule.html#some-info",
+    "href": "schedule.html#some-info",
+    "title": "Coding for Dummies — Workshop Program",
+    "section": "some info",
+    "text": "some info\n\nfrom IPython.display import display, Markdown, HTML\n\n# Use the already-sorted df from the previous cell\nfor day, g in df.groupby(\"Day\", sort=False):\n    display(Markdown(f\"### {day}\"))\n    # Drop the repeated Day column and render a clean sub-table\n    display(HTML(g.drop(columns=[\"Day\"]).to_html(index=False)))\n\nDay 1\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nGet comfortable with Python syntax and Google Colab basics\n1\nSimple Python Program\nTest if a string is a palindrome\nVariables, strings, conditionals, printing\nFunction that returns True/False for palindrome\n\n\nGet comfortable with Python syntax and Google Colab basics\n2\nSocial Science Application Idea\nCounting words in a transcript\nBrainstorm repetitive academic tasks; file I/O; basic text ops\nLoad a .txt interview, count words, save a summary\n\n\nGet comfortable with Python syntax and Google Colab basics\n3\nChatting with Your Data (Intro)\nSet up Colab + AI assistant\nInstall/load helpers; prompt-to-code generation\n“Make a table from survey results and sort by age”\n\n\n\n\n\nDay 2\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nLearn data structures and ingest/clean small datasets via low-code patterns\n1\nSimple Python Program\nTest if a number is prime\nLoops, modulo, early returns, simple functions\nReusable `is_prime(n)` with basic tests\n\n\nLearn data structures and ingest/clean small datasets via low-code patterns\n2\nSocial Science Application Idea\nImport and clean a survey CSV\nRead CSV, drop duplicates, handle missing, export clean CSV\nClean `survey.csv` → `survey_clean.csv`\n\n\nLearn data structures and ingest/clean small datasets via low-code patterns\n3\nChatting with Your Data (Tables)\nConversational queries over tables\nUpload CSV/Excel; ask AI for cleaning & summaries\n“Top 5 categories by count” + basic describe()\n\n\n\n\n\nDay 3\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nAutomate common research data collection/prep tasks\n1\nSimple Python Program\nGenerate a random password\nStrings, randomness, loops, parameterization\nPassword with letters/digits; length argument\n\n\nAutomate common research data collection/prep tasks\n2\nSocial Science Application Idea\nLightweight web scraping for text\nRequests/BeautifulSoup (guided by AI); save to CSV\nScrape headlines and timestamps into `news.csv`\n\n\nAutomate common research data collection/prep tasks\n3\nChatting with Your Data (Text)\nAI-assisted text analysis\nTokenization, keywords, quick sentiment\n“Most common terms in a policy document”\n\n\n\n\n\nDay 4\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nTell data stories with basic charts (Matplotlib/Plotly)\n1\nSimple Python Program\nCompute Fibonacci up to N\nLists, loops, function returns\nSimple sequence generator and print\n\n\nTell data stories with basic charts (Matplotlib/Plotly)\n2\nSocial Science Application Idea\nPlot survey results over time\nData grouping, aggregations, export figures\nBar/line chart of response counts by month\n\n\nTell data stories with basic charts (Matplotlib/Plotly)\n3\nChatting with Your Data (Graphs)\nPrompt-to-plot workflow\nCreate chart via natural language; customize labels\nAuto-generated bar chart with titles/axes saved as PNG\n\n\n\n\n\nDay 5\n\n\n\n\n\nModule Goal\nHour\nSession Type\nTitle\nKey Topics / Activities\nExample or Mini-Project\n\n\n\n\nIntegrate skills into a small end-to-end project\n1\nSimple Python Program\nAverage & median from a list\nLists, built-ins, simple stats\n`mean/median` on example list + edge cases\n\n\nIntegrate skills into a small end-to-end project\n2\nSocial Science Application Idea\nMini “data chatbot” ideation\nChoose dataset; plan load→clean→analyze→viz\nTeams sketch prompts + steps for their dataset\n\n\nIntegrate skills into a small end-to-end project\n3\nChatting with Your Data (Showcase)\nProject demos & next steps\nRun notebooks; reflect on workflow; next resources\nShort presentations + exported tables/plots"
+  },
+  {
+    "objectID": "apws-module-2.html",
+    "href": "apws-module-2.html",
+    "title": "2: Understand your dataset",
+    "section": "",
+    "text": "# Lets recapitulate module 1: reading data into python env! Try some of the following:\n\n# 1. upload local data file to colab and read it into dataframe, e.g. xlsx\n\n# 2. upload local image or text files and read to data objects, e.g. png, txt\n\n# 3. mount google drive in colab and access files from persistent cloud storage\n\n# 4. download files from github or other online data repository, e.g. osf, zenodo\n!git clone https://github.com/nils-holmberg/cda-gai.git\n\n\nGenerate a simple Python program\nPlanned focus: Line-by-line prime number tester\n\nKey topics / activities: Loops, modulo, input/file I/O, simple edge cases\nExample / mini-project: Test numbers from hardcoded/input/file and label prime/non-prime\n\n\n# TODO: Implement: Generate a simple Python program for Day 2\n# Suggested starting hints from schedule:\n# Title: Line-by-line prime number tester\n# Key topics / activities: Loops, modulo, input/file I/O, simple edge cases\n# Example / Mini-project: Test numbers from hardcoded/input/file and label prime/non-prime\n\n# Write your code here...\n\n\n\nSolve problem in your own work\nPlanned focus: Top words & keyword check\n\nKey topics / activities: Text cleaning, Counter, filtering by length\nExample / mini-project: From a text file, list 10 most frequent words (&gt;7 chars) and detect a target word\n\n\n# TODO: Implement: Solve problem in your own work for Day 2\n# Suggested starting hints from schedule:\n# Title: Top words & keyword check\n# Key topics / activities: Text cleaning, `Counter`, filtering by length\n# Example / Mini-project: From a text file, list 10 most frequent words (&gt;7 chars) and detect a target word\n\n# Write your code here...\n\n\n\nPerform data science using GenAI\nPlanned focus: Explore the penguins dataset\n\nKey topics / activities: Data loading from package, describe(), value_counts(), simple plots\nExample / mini-project: Load a penguins DataFrame and compute basic descriptives\n\n\n# TODO: Implement: Perform data science using GenAI for Day 2\n# Suggested starting hints from schedule:\n# Title: Explore the penguins dataset\n# Key topics / activities: Data loading from package, describe(), value_counts(), simple plots\n# Example / Mini-project: Load a penguins DataFrame and compute basic descriptives\n\n# Write your code here...",
+    "crumbs": [
+      "About",
+      "2: Understand your dataset"
+    ]
+  },
+  {
+    "objectID": "apws-module-3.html",
+    "href": "apws-module-3.html",
+    "title": "3: Data transformations!!",
+    "section": "",
+    "text": "# Empty code cell with Python comment preceded by hash sign \"# \"\n\n\nGenerate a simple Python program\nPlanned focus: Normalize a list to 0–1 and compare\n\nKey topics / activities: Min–max scaling, lists → DataFrame, two-column output\nExample / mini-project: Create a two-column DataFrame: original vs normalized values\n\n\n# TODO: Implement: Generate a simple Python program for Day 3\n# Suggested starting hints from schedule:\n# Title: Normalize a list to 0–1 and compare\n# Key topics / activities: Min–max scaling, lists → DataFrame, two-column output\n# Example / Mini-project: Create a two-column DataFrame: original vs normalized values\n\n# Write your code here...\n\n\n\nSolve problem in your own work\nPlanned focus: Anonymize & categorize respondents\n\nKey topics / activities: Regex for names, age binning into 3 groups\nExample / mini-project: Read TSV (first,last,age,preference), anonymize IDs, add 3 age categories\n\n\n# TODO: Implement: Solve problem in your own work for Day 3\n# Suggested starting hints from schedule:\n# Title: Anonymize & categorize respondents\n# Key topics / activities: Regex for names, age binning into 3 groups\n# Example / Mini-project: Read TSV (first,last,age,preference), anonymize IDs, add 3 age categories\n\n# Write your code here...\n\n\n\nPerform data science using GenAI\nPlanned focus: Median split & missing-value handling on penguins\n\nKey topics / activities: Recode numeric → categorical (median), drop NAs\nExample / mini-project: Recode a numeric variable by median split; remove missing values\n\n\n# TODO: Implement: Perform data science using GenAI for Day 3\n# Suggested starting hints from schedule:\n# Title: Median split & missing-value handling on penguins\n# Key topics / activities: Recode numeric → categorical (median), drop NAs\n# Example / Mini-project: Recode a numeric variable by median split; remove missing values\n\n# Write your code here...",
+    "crumbs": [
+      "About",
+      "3: Data transformations!!"
+    ]
+  },
+  {
+    "objectID": "education.html#construct-a-measurement-instrument-student-survey",
+    "href": "education.html#construct-a-measurement-instrument-student-survey",
+    "title": "Education",
+    "section": "1.1 Construct a measurement instrument (student survey)",
+    "text": "1.1 Construct a measurement instrument (student survey)\nLatent constructs (5-point Likert: 1=Strongly disagree … 5=Strongly agree)\n\nAI Literacy (AIL) AIL1 “I understand how large language models generate text.” AIL2 “I can explain the limits of AI outputs.” AIL3 “I know how prompts affect AI responses.”\nPerceived Usefulness (PU) PU1 “AI helps me produce better drafts faster.” PU2 “AI increases the quality of my assignments.”\nTrust in AI (TR) TR1 “I can rely on AI to provide accurate information.” TR2 “I believe AI tools are dependable for academic tasks.”\nAcademic Integrity Norms (AIN) AIN1 “It’s important to disclose AI assistance in coursework.” AIN2 “Using AI without attribution is unacceptable.”\nAdoption/Use (USE) USE_freq (times/week using AI for study: 0–30) USE_tasks (sum of binary items: brainstorming, editing, coding, data viz, citation help; 0–5)\n\nOutcomes\n\nPerformance proxy (PERF): assignment grade (0–100)\nCognitive load (CL): NASA-TLX short (1–10)\nWriting quality (WQ): TA rubric (1–10)",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#generate-a-synthetic-dataset-with-distributions-correlations",
+    "href": "education.html#generate-a-synthetic-dataset-with-distributions-correlations",
+    "title": "Education",
+    "section": "1.2 Generate a synthetic dataset with distributions & correlations",
+    "text": "1.2 Generate a synthetic dataset with distributions & correlations\nAssumptions you can state in syllabi:\n\nAIL ~ Normal(3.4, 0.7); PU ~ Normal(3.6, 0.6); TR ~ Normal(3.2, 0.7); AIN ~ Normal(4.2, 0.5) clipped to [1,5]\nUSE_freq ~ Zero-inflated Poisson (π₀≈0.25, λ≈6)\nTarget correlations: AIL↔︎PU (.45), AIL↔︎TR (.35), PU↔︎USE (.40), AIN↔︎USE (−.20)\nOutcomes: PERF increases with AIL, PU, moderate with USE, decreases with CL; WQ increases with AIL & AIN.\n\nColab cell:\n# !pip install numpy pandas scipy statsmodels scikit-learn pingouin\nimport numpy as np, pandas as pd\nrng = np.random.default_rng(42)\nn = 400\n\n# Latent block ~ MVN with target correlations\nmeans = np.array([3.4, 3.6, 3.2, 4.2])  # AIL, PU, TR, AIN\ncorr = np.array([\n [1.00, 0.45, 0.35, 0.10],\n [0.45, 1.00, 0.30, 0.05],\n [0.35, 0.30, 1.00, 0.00],\n [0.10, 0.05, 0.00, 1.00]\n])\nstds = np.array([0.7, 0.6, 0.7, 0.5])\ncov = corr * np.outer(stds, stds)\nlatent = rng.multivariate_normal(means, cov, size=n)\nAIL, PU, TR, AIN = [np.clip(latent[:,i],1,5) for i in range(4)]\n\n# Items = latent + noise, clipped to [1,5]\ndef mk_items(lat, k, noise_sd=.5):\n    M = np.clip(lat[:,None] + rng.normal(0, noise_sd, size=(len(lat),k)), 1, 5)\n    return np.rint(M)  # Likert rounding\nAIL_items = mk_items(AIL, 3); PU_items = mk_items(PU, 2); TR_items = mk_items(TR, 2); AIN_items = mk_items(AIN, 2)\n\n# Use/disclosure\npi0, lam = 0.25, 6\nzeros = rng.uniform(size=n) &lt; pi0\nUSE_freq = np.where(zeros, 0, rng.poisson(lam, size=n))\nUSE_tasks = rng.binomial(5, p=np.clip((PU-1)/5, 0.05, 0.9))\n\n# Outcomes\nCL = np.clip(7 - 0.6*AIL - 0.3*PU + rng.normal(0,1, n), 1, 10)\nPERF = np.clip(60 + 6*AIL + 4*PU + 1.2*USE_tasks - 2*CL + rng.normal(0,6, n), 0, 100)\nWQ   = np.clip(3 + 1.1*AIL + 0.7*AIN + 0.5*PU + rng.normal(0,1.5,n), 1, 10)\n\ndf = pd.DataFrame({\n    'AIL1':AIL_items[:,0],'AIL2':AIL_items[:,1],'AIL3':AIL_items[:,2],\n    'PU1':PU_items[:,0],'PU2':PU_items[:,1],\n    'TR1':TR_items[:,0],'TR2':TR_items[:,1],\n    'AIN1':AIN_items[:,0],'AIN2':AIN_items[:,1],\n    'USE_freq':USE_freq,'USE_tasks':USE_tasks,\n    'CL':CL,'PERF':PERF,'WQ':WQ\n})\ndf.head()",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#relationship-model-conceptual-estimable",
+    "href": "education.html#relationship-model-conceptual-estimable",
+    "title": "Education",
+    "section": "1.3 Relationship model (conceptual → estimable)",
+    "text": "1.3 Relationship model (conceptual → estimable)\n\nTheory sketch: AIL → PU → USE → PERF; AIL → CL (−); AIN → WQ (+) & moderates (AIN × PU) on PERF via disclosure/ethical use.\nEstimable forms:\n\nMultiple regression: PERF ~ AIL + PU + USE_tasks + CL + AIN + AIL:PU\nMediation: AIL → PU → PERF; (c) Moderation: AIN × PU.\n\n\nimport statsmodels.api as sm\nX = df[['AIL1','AIL2','AIL3']].mean(1).rename('AIL')\nPUm = df[['PU1','PU2']].mean(1)\nAINm= df[['AIN1','AIN2']].mean(1)\nZ = pd.DataFrame({'PERF':df.PERF,'AIL':X,'PU':PUm,'USE':df.USE_tasks,'CL':df.CL,'AIN':AINm})\nZ['AINxPU'] = Z.AIN*Z.PU\nmodel = sm.OLS(Z.PERF, sm.add_constant(Z[['AIL','PU','USE','CL','AIN','AINxPU']])).fit()\nmodel.summary()",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#quantitative-analysis-exploratory-inferential",
+    "href": "education.html#quantitative-analysis-exploratory-inferential",
+    "title": "Education",
+    "section": "2.1 Quantitative analysis (exploratory + inferential)",
+    "text": "2.1 Quantitative analysis (exploratory + inferential)\nExploratory\nimport matplotlib.pyplot as plt\npd.options.display.float_format = '{:.2f}'.format\ndesc = df.describe()\ncorr = df[['PERF','WQ','CL','USE_tasks']].join(\n       pd.DataFrame({'AIL':X,'PU':PUm,'AIN':AINm})).corr()\ndesc, corr\n(Add plots as you like in Colab: histograms, scatter with LOWESS, etc.)\nReliability & scales\ndef cronbach_alpha(items):\n    M = items.to_numpy()\n    k = M.shape[1]\n    var_sum = M.var(axis=0, ddof=1).sum()\n    total_var = M.sum(axis=1).var(ddof=1)\n    return (k/(k-1))*(1 - var_sum/total_var)\n\nalpha_AIL = cronbach_alpha(df[['AIL1','AIL2','AIL3']])\nalpha_PU  = cronbach_alpha(df[['PU1','PU2']])\nalpha_TR  = cronbach_alpha(df[['TR1','TR2']])\nalpha_AIN = cronbach_alpha(df[['AIN1','AIN2']])\nalpha_AIL, alpha_PU, alpha_TR, alpha_AIN\nInferential\n\nt-tests/ANOVA: Compare PERF across terciles of AI use.\nRegression: already shown.\nMediation (quick Baron-Kenny-style):\n\n# AIL -&gt; PU\nm1 = sm.OLS(Z.PU, sm.add_constant(Z[['AIL']])).fit()\n# AIL -&gt; PERF\nm2 = sm.OLS(Z.PERF, sm.add_constant(Z[['AIL']])).fit()\n# AIL + PU -&gt; PERF\nm3 = sm.OLS(Z.PERF, sm.add_constant(Z[['AIL','PU']])).fit()\n(m1.summary(), m2.summary(), m3.summary())",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#qualitative-text-nlp-lightweight-starter",
+    "href": "education.html#qualitative-text-nlp-lightweight-starter",
+    "title": "Education",
+    "section": "2.2 Qualitative / text-NLP (lightweight starter)",
+    "text": "2.2 Qualitative / text-NLP (lightweight starter)\nUse this for reflective answers or discussion posts about AI use.\n# !pip install nltk sentence-transformers umap-learn hdbscan\nimport re, pandas as pd\ntexts = [\n \"I use AI for brainstorming but always disclose it.\",\n \"AI helps me code but I worry about hallucinations.\",\n \"I avoid AI because I prefer original writing.\",\n \"AI saved me time generating outlines for my PR brief.\",\n \"Unsure what counts as acceptable AI use in class.\"\n]\n# Simple preprocessing\ndef clean(t): return re.sub(r'[^a-z ]','',t.lower())\ndocs = [clean(t) for t in texts]\n\n# Embedding + clustering (topic-ish)\nfrom sentence_transformers import SentenceTransformer\nimport numpy as np, umap, hdbscan\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\nE = model.encode(docs, normalize_embeddings=True)\nU = umap.UMAP(n_neighbors=5, min_dist=0.1, metric='cosine', random_state=0).fit_transform(E)\nlabels = hdbscan.HDBSCAN(min_cluster_size=2, metric='euclidean').fit_predict(U)\n\npd.DataFrame({'text':texts, 'cluster':labels})\nQual coding scaffold: Define a short codebook: Disclosure, Perceived Benefit, Risk/Hallucination, Ethical Concern, Avoidance. Have students (or you) code 10–20 posts, compare inter-coder agreement (Cohen’s κ) then contrast with embedding clusters for triangulation.",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#item-blueprint-one-correct2-pts-two-partial1-pt-each-one-incorrect0",
+    "href": "education.html#item-blueprint-one-correct2-pts-two-partial1-pt-each-one-incorrect0",
+    "title": "Education",
+    "section": "3.1 Item blueprint (one correct=2 pts; two partial=1 pt each; one incorrect=0)",
+    "text": "3.1 Item blueprint (one correct=2 pts; two partial=1 pt each; one incorrect=0)\nEach item has 4 options:\n\nA: fully correct (2)\nB & C: partially correct (1 each; contain correct fragments but miss a condition)\nD: incorrect (0)\n\nExample item (Communication & AI ethics) Which statement best reflects transparent AI use in coursework? A. Disclose AI assistance and specify which parts it supported. B. Disclose AI assistance but details are optional. C. Include an AI disclaimer even if no AI was used. D. No disclosure is necessary if the output is edited. Key: A=2, B=1, C=1, D=0\nGeneration prompt (for you to reuse with a model): “Write a 4-option MCQ about AI in communication practice. Ensure exactly one fully correct answer, two partially correct answers that include true fragments but miss a key condition, and one incorrect answer; provide the scoring map {A:2,B:1,C:1,D:0}.”",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#auto-grading-and-basic-psychometrics",
+    "href": "education.html#auto-grading-and-basic-psychometrics",
+    "title": "Education",
+    "section": "3.2 Auto-grading and basic psychometrics",
+    "text": "3.2 Auto-grading and basic psychometrics\nimport pandas as pd, numpy as np\n\n# Answer key with partial credit\nkey = {\n  'Q1': {'A':2,'B':1,'C':1,'D':0},\n  'Q2': {'C':2,'A':1,'B':1,'D':0},\n  'Q3': {'B':2,'A':1,'D':1,'C':0},\n}\n\n# Simulate responses for 60 students\nrng = np.random.default_rng(0)\nopts = ['A','B','C','D']\nresp = pd.DataFrame({q: rng.choice(opts, size=60, p=[.4,.3,.2,.1]) for q in key})\n\n# Score\ndef score_row(row):\n    return sum(key[q][row[q]] for q in key)\nscores = resp.apply(score_row, axis=1)\nresp['Score'] = scores\n\n# KR-20 is for dichotomous items; use coefficient alpha with partial credit:\ndef alpha_poly(df_items):\n    X = df_items.to_numpy()\n    # map options to scores per key\n    S = np.zeros_like(X, dtype=float)\n    for j,q in enumerate(df_items.columns):\n        mapping = key[q]\n        S[:,j] = [mapping[o] for o in X[:,j]]\n    k = S.shape[1]\n    var_items = S.var(axis=0, ddof=1).sum()\n    var_total = S.sum(axis=1).var(ddof=1)\n    return (k/(k-1))*(1 - var_items/var_total)\n\nalpha = alpha_poly(resp[list(key.keys())])\nresp['Score'].describe(), alpha",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#compare-ai-copilot-in-programming-policy-assessment-design",
+    "href": "education.html#compare-ai-copilot-in-programming-policy-assessment-design",
+    "title": "Education",
+    "section": "3.3 Compare “AI copilot in programming” (policy & assessment design)",
+    "text": "3.3 Compare “AI copilot in programming” (policy & assessment design)\nScenario A: No-copilot exam (closed-tool)\n\nAssess memorization & manual syntax: limited authenticity for real workflows.\n\nScenario B: Copilot-allowed exam (open-tool, disclose prompts & edits)\n\nEvaluates spec framing, debugging, verification, ethics, and documentation—closer to professional practice.\n\nHow to adapt MCQs and tasks:\n\nMCQs: Focus on interpreting AI outputs, identifying hallucinations, choosing safer prompts, and licensing/disclosure rules.\nPractical tasks:\n\nGive a small programming/analysis task and require: (1) prompt(s) used, (2) raw AI output, (3) student’s edits, (4) justification/tests.\nGrade on correctness and process transparency.\nAdd “canary” pitfalls (e.g., subtly incorrect statistical test choice) to see if students catch them.\n\n\nRubric lens (both scenarios):\n\nCorrectness (40%)\nMethod & verification/tests (25%)\nClarity & documentation (20%)\nEthics & disclosure (15%)",
+    "crumbs": [
+      "About",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "education.html#quick-ways-to-deploy-in-your-course",
+    "href": "education.html#quick-ways-to-deploy-in-your-course",
+    "title": "Education",
+    "section": "Quick ways to deploy in your course",
+    "text": "Quick ways to deploy in your course\n\nWeek 1–2: Administer the survey (Section 1.1).\nWeek 2 lab: Use the synthetic dataset to teach EDA, reliability, regression, mediation (Sections 1.2–2.1).\nWeek 3 seminar: Short reflective posts → Embedding clusters + manual codes (Section 2.2).\nWeek 4 assessment: MCQ (partial credit) + a copilot-allowed mini-project with disclosure pack (Section 3).\n\nIf you want, I can turn this into a ready-to-print handout + Colab notebook with the code cells pre-wired.",
+    "crumbs": [
+      "About",
+      "Overview"
     ]
   },
   {
